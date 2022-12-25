@@ -1,0 +1,130 @@
+/* Background */
+body {
+    background-color: black;
+}
+/* Logo */
+#logo-img {
+    width: 150px;
+}
+/* BG colors */
+.bg-red {
+    background-color: #E50914;
+}
+.bg-gray {
+    background-color: #303030;
+}
+/* Button */
+.btn-signin:hover {
+    background-color: #E50914;
+}
+.select {
+    width: 7rem;
+}
+/* Font Size and color */
+.fc-gray {
+    color: #737373;
+}
+.fs-small {
+    font-size: 0.85rem;
+}
+.fc-orange {
+    color: #E87C03;
+}
+/* Need help Link */
+#link, #learnmore-link {
+    text-decoration: none;
+}
+#link:hover {
+    text-decoration: underline;
+}
+/* Footer */
+.footer-container {
+    margin-top: 10rem;
+    border-top: solid 2px #737373;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.list-item:hover {
+    background-color: darkblue;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+}
+@media screen and (min-width: 701px) {
+
+    .footer {
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+}
+@media screen and (min-width: 1000px) {
+
+    .footer {
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+}
+/* Sign in form */
+@media screen and (min-width: 700px) {
+    
+    .signin-sec{
+        width: 70%;
+        margin: 2rem auto;
+      
+    }
+    
+}
+@media screen and (min-width: 900px) {
+
+    .signin-sec {
+        width: 60%;
+        margin: 2rem auto;
+
+    }
+}
+@media screen and (min-width: 1000px) {
+
+    .signin-sec {
+        width: 50%;
+        margin: 2rem auto;
+
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .signin-sec {
+        width: 40%;
+        margin: 2rem auto;
+
+    }
+}
+@media screen and (min-width: 1400px) {
+
+    .signin-sec {
+        width: 35%;
+        margin: 2rem auto;
+
+    }
+    .footer-container{
+        position: static;
+    }
+}
+/* Form Validation Style */
+.border-orange-bottom {
+    /* border-bottom: solid 2px #E87C03; */
+    border: solid 2px white;
+}
